@@ -38,7 +38,7 @@ import qualified Network.ByteOrder as BO
 
 -- for toArrayS conversion
 import qualified Data.ByteString.Internal as BSI
-import qualified Streamly.Internal.Data.Array.Storable.Foreign.Types as Arr
+import qualified Streamly.Internal.Data.Array.Storable.Foreign.Type as Arr
 import Foreign.ForeignPtr.Unsafe (unsafeForeignPtrToPtr)
 import GHC.Ptr (minusPtr)
 
